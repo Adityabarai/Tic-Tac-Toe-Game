@@ -7,15 +7,33 @@ body {
     text-align: center;
 }
 .msg-container {
-    height: 30vmin;
+    height: 15vmin;
 }
 .hide {
     display: none;
 }
 #msg {
-    color: #ffff00;
+    color: #ff0000;
     font-size: 5vmin;
+    padding: 1vmin;
 }
+h1 {
+    margin-top: 5vmin;
+}
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+    h1 {
+        margin-top: 2vmin;
+        font-size: 10vmin;
+    }
+    #newBtn {
+        font-size: 100vmin;
+        padding: 25vmin;
+    }
+}
+
 #newBtn {
     padding: 1rem;
     font-size: 1.25rem;
@@ -57,4 +75,5 @@ body {
     color: #fff;
     border-radius: 1rem;
     border: none;
+    margin-bottom: 5vmin;
 }
